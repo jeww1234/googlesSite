@@ -1,0 +1,91 @@
+*{
+    margin: 0; padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.navbar:first-child{
+    margin-right: 15px;
+}
+.nav-item{
+    color: black;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.main{
+    margin-top: 200px;
+    text-align: center;
+}
+.input-area{
+    margin: 20px;
+}
+.input-box{
+    width: 584px;
+    height: 46px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 0 45px;
+}
+.searchbar{
+    position: relative;
+    left: 40px;
+    color: #999;
+}
+.micicon{
+    position: relative;
+    right: 40px;
+    color: #999;
+}
+.languge a{
+    font-size: 110%;
+    font-weight: 600;
+    color: black;
+}
+.button-area{
+    padding-top: 20px;
+}
+button{
+    padding: 3px 10px;
+    background-color: rgb(255, 177, 238);
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-style: italic;
+}
+button:hover{
+    scale: 105%;
+    font-weight: bolder;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: #eee;
+}
+.first-box{
+    border-bottom: 0.5px solid #ccc;
+    font-weight: 400;
+    padding: 0 15px;
+}
+.second-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.second-box a{
+    color: red;
+}
+
+.second-box a:hover{
+    font-weight: bolder;
+}
